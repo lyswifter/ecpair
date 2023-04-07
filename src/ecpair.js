@@ -7,6 +7,7 @@ const types = require('./types');
 const randomBytes = require('randombytes');
 const wif = require('wif');
 const testecc_1 = require('./testecc');
+const Buffer = require('safe-buffer').Buffer;
 const isOptions = types.typeforce.maybe(
   types.typeforce.compile({
     compressed: types.maybe(types.Boolean),

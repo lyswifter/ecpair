@@ -1,6 +1,7 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
 exports.testEcc = void 0;
+const Buffer = require('safe-buffer').Buffer;
 const h = (hex) => Buffer.from(hex, 'hex');
 function testEcc(ecc) {
   assert(

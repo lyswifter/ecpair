@@ -48,6 +48,7 @@
   ],
   "dependencies": {
     "randombytes": "^2.1.0",
+    "safe-buffer": "^5.2.1",
     "typeforce": "^1.18.0",
     "wif": "^2.0.6"
   },
